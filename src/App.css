@@ -15,7 +15,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +34,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-header h1 {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 16px 0;
+}
+
+.nav_bar {
+  padding: 8px 16px;
+  background-color: burlywood;
+  color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.nav_bar ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
 }
